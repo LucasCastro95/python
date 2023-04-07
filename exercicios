@@ -1,0 +1,29 @@
+# Exercicio 2.1 Converta as seguintes expressões matematicas para que possam ser calculadas usando python
+
+print(10 + 20 * 30)
+
+# os numeros abaixo estam no livro pag 45 de python
+print(4 ** 2 / 30)
+print(9 ** 4 + 2 * 6 - 1)
+
+# Exercicio 2.2 Digite a expressao no interpretador
+print(10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2)
+
+# faça um programa que exiba seu nome na tela
+print("olá, Meu nome é Lucas")
+
+# Escreva um programa que exiba o resultado de 2a x 3b, em que a vale 3 e b vale 5
+a = 3
+b = 5
+print(2*a*3*b)
+
+# Escreva um programa que calcule a soma de tres variaveis e imprima o resultado na tela
+c = 2
+d = 4
+e = 6
+print(c+d+e)
+
+# Modifique o programa 2.2 de forma que ele calcule um aumento de 15% para um salário de R$ 750.
+salario = 750
+aumento = 15
+print(salario+(salario*aumento/100))
