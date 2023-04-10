@@ -27,3 +27,8 @@ print(c+d+e)
 salario = 750
 aumento = 15
 print(salario+(salario*aumento/100))
+
+# Projeto conversor de moedas
+real = float(input(" Quanto de R$ tenho na carteira : "))
+dolar = real/5.05
+print(" com R$ {:.2f} reais e possivel ter R$ {:.2f} dolares".format(real,dolar))
