@@ -53,5 +53,5 @@ dias = int(input("quantidade de dias : ? "))
 horas = int(input("quantidade de horas : ? "))
 minutos = int(input("quantidade de minutos : ? "))
 segundos = int(input("quantidade de segundos : ? "))
-total_de_segundos = dias * 24 * 3600 + horas * 3600 * 3600+ minutos * 60 + segundos
+total_de_segundos = dias * 24 * 3600 +horas *3600 + minutos * 60 + segundos
 print(total_de_segundos)
