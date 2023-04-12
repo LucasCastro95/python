@@ -35,3 +35,23 @@ dolar = real/5.05
 euro = real/5.51
 iene = real/0.03814
 print(" com R$ {:.2f} reais e possivel ter R$ {:.2f} dolares.  \n Em euros {:.2f}. em ienes {:.2f}".format(real,dolar,euro,iene))
+
+#exercicio 3.7 
+n1 = int(input("Digite o primeiro numero: "))
+n2 = int(input("Digite o outro numero : "))
+s = n1+n2
+print(f" a soma entre {n1} e {n2} = {s}")
+
+#exercicio 3.8
+metros = float(input("digite o valor em metros :"))
+milimetros = metros *1000
+print(f"o valor metros {metros:.3f} em milimetros = {milimetros:.3f}")
+
+
+#exercicio 3.9
+dias = int(input("quantidade de dias : ? "))
+horas = int(input("quantidade de horas : ? "))
+minutos = int(input("quantidade de minutos : ? "))
+segundos = int(input("quantidade de segundos : ? "))
+total_de_segundos = dias * 24 * 3600 + horas * 3600 * 3600+ minutos * 60 + segundos
+print(total_de_segundos)
