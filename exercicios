@@ -64,7 +64,7 @@ print(f"\nvalor do salario anterior {salario:.2f} \nnovo aumento de %{aumento:.2
 
 #exercicio 3.11
 mercadoria = float(input(" valor mercadoria: "))
-desconto = float(input(" Desconto : "))
+desconto = float(input(" Desconto  : % "))
 total = mercadoria - mercadoria * desconto /100
-print(f"valor do desconto {desconto}")
-print(f" novo valor com desconto {total}")
+print(f"valor do desconto {desconto:.2f}")
+print(f"novo valor com desconto {total:.2f}")
