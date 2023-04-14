@@ -55,3 +55,9 @@ minutos = int(input("quantidade de minutos : ? "))
 segundos = int(input("quantidade de segundos : ? "))
 total_de_segundos = dias * 24 * 3600 +horas *3600 + minutos * 60 + segundos
 print(total_de_segundos)
+
+#exercicio 3.10
+salario = float(input("Digite seu salario R$ "))
+aumento = float(input("Aumento de "))
+total_c_a = salario + salario * aumento /100
+print(f"\nvalor do salario anterior {salario:.2f} \nnovo aumento de %{aumento:.2f} \salario atula com aumento atual com aumento {total_c_a:.2f}") 
