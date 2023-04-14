@@ -68,3 +68,14 @@ desconto = float(input(" Desconto  : % "))
 total = mercadoria - mercadoria * desconto /100
 print(f"valor do desconto {desconto:.2f}")
 print(f"novo valor com desconto {total:.2f}")
+
+#exercicio 3.12
+distancia= float(input("distancia a percorrer "))
+velocidade= float(input("velocidade media "))
+tempo_total = distancia / velocidade
+print("o tempo estimado e de  {:5.2f}".format(tempo_total))
+
+#exercicio 3.13
+c = float(input("qual e a temperatura em Celsius :"))
+f =  (9 *c /5) + 32
+print("temperatura em C  {:5.2f} e igual a {:5.2f} em F ".format(c,f))
