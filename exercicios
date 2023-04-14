@@ -61,3 +61,10 @@ salario = float(input("Digite seu salario R$ "))
 aumento = float(input("Aumento de "))
 total_c_a = salario + salario * aumento /100
 print(f"\nvalor do salario anterior {salario:.2f} \nnovo aumento de %{aumento:.2f} \salario atula com aumento atual com aumento {total_c_a:.2f}") 
+
+#exercicio 3.11
+mercadoria = float(input(" valor mercadoria: "))
+desconto = float(input(" Desconto : "))
+total = mercadoria - mercadoria * desconto /100
+print(f"valor do desconto {desconto}")
+print(f" novo valor com desconto {total}")
