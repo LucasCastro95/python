@@ -79,3 +79,13 @@ print("o tempo estimado e de  {:5.2f}".format(tempo_total))
 c = float(input("qual e a temperatura em Celsius :"))
 f =  (9 *c /5) + 32
 print("temperatura em C  {:5.2f} e igual a {:5.2f} em F ".format(c,f))
+
+
+# exercicio 3.15
+cigarros_dias = int(input(" cigarros fumados por dia : ? "))
+anos_fumando = int(input("quantos anos fumando ? "))
+cigarros_dias_total =  anos_fumando * 365 * cigarros_dias * 10
+reducao_dias = cigarros_dias_total // (24*60)
+print( f" tem exatamente {reducao_dias} dias restantes" )
+print(" tem exatamente {} dias restantes".format(reducao_dias))
+
