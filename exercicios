@@ -89,3 +89,13 @@ reducao_dias = cigarros_dias_total // (24*60)
 print( f" tem exatamente {reducao_dias} dias restantes" )
 print(" tem exatamente {} dias restantes".format(reducao_dias))
 
+
+#exercicio 4.2
+velocidade = int(input(" qual a velocidade do carro : ?"))
+if velocidade > 80:
+  multa =  (velocidade - 80) *5
+  print(" voce foi multado em  {} reais".format(multa))
+ 
+if velocidade <= 80:
+    print(f" velocidade ok. boa viagem { velocidade } km")
+
